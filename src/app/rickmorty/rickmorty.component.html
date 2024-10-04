@@ -1,0 +1,19 @@
+<div class="table_component" role="region" tabindex="0">
+    <table>
+        <caption>Table 1</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let episode of Observable">
+                <td>{{ episode.name }}</td>
+                <td>{{ episode.air_date }}</td>
+                <td>{{ episode.episode }}</td>
+              </tr>
+        </tbody>
+    </table>
+</div>
